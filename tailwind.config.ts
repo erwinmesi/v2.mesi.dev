@@ -6,8 +6,13 @@ const config: Config = {
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
+
   theme: {
     extend: {
+      boxShadow: {
+        soft: 'var(--shadow-soft)',
+      },
+
       colors: {
         primary: {
           50: 'var(--color-primary-50)',
@@ -29,7 +34,6 @@ const config: Config = {
           850: 'var(--color-primary-850)',
           900: 'var(--color-primary-900)',
           950: 'var(--color-primary-950)',
-          1000: 'var(--color-primary-1000)',
           DEFAULT: 'var(--color-primary)',
           rgb: 'var(--color-primary-rgb)',
           contrast: 'var(--color-primary-contrast)',
@@ -37,9 +41,25 @@ const config: Config = {
           shade: 'var(--color-primary-shade)',
           tint: 'var(--color-primary-tint)',
         },
+
+        typo: {
+          DEFAULT: 'var(--color-typo)',
+          100: 'var(--color-typo-100)',
+          200: 'var(--color-typo-200)',
+          300: 'var(--color-typo-300)',
+          400: 'var(--color-typo-400)',
+          500: 'var(--color-typo-500)',
+          600: 'var(--color-typo-600)',
+          700: 'var(--color-typo-700)',
+          800: 'var(--color-typo-800)',
+          900: 'var(--color-typo-900)',
+          950: 'var(--color-typo-950)',
+        },
       },
     },
   },
+
   plugins: [],
 }
+
 export default config
