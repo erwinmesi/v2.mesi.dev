@@ -5,7 +5,7 @@ export default function SiteNavbar() {
     <header className="relative z-[3]">
       <nav className="max-w-7xl mx-auto flex justify-between items-center">
         <ul className="flex text-sm font-medium">
-          <li className="transition-all text-gray-700 hover:text-primary-550 px-4 sm:px-6 py-6 md:py-10 cursor-pointer">
+          <li className="transition-all text-gray-700 hover:text-primary-550 px-4 sm:px-6 py-6 md:py-10 cursor-pointer shrink-0">
             <a href="/">
               <picture>
                 <img

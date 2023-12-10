@@ -1,4 +1,5 @@
 import image from '@/app/assets/images/mesi_half_body_2.webp'
+import mesiImage from '@/app/assets/images/mesi.webp'
 import SymbolBento from '@/app/components/shared/SymbolBento'
 import SymbolCircle from '@/app/components/shared/SymbolCircle'
 
@@ -6,7 +7,7 @@ export default function SiteHero() {
   return (
     <section id="home--hero" className="md:mt-3">
       <div className="md:px-6 max-w-7xl mx-auto">
-        <div className="relative py-20 md:py-28 lg:py-24 xl:py-28">
+        <div className="relative py-8 md:py-28 lg:py-24 xl:py-28">
           <div className="z-[1] absolute inset-0 bg-primary-450 md:rounded-[32px] overflow-hidden shadow-lg">
             <SymbolBento
               picClass="absolute bottom-0 left-0"
@@ -29,6 +30,13 @@ export default function SiteHero() {
                   picClass="absolute -top-16 -left-8"
                   imgClass="w-24 opacity-30"
                 />
+                <picture>
+                  <img
+                    src={mesiImage.src}
+                    alt="Erwin Mesias"
+                    className="relative z-[1] w-48 aspect-square mb-8 border-4 shadow rounded-full md:hidden"
+                  />
+                </picture>
                 <p className="relative z-[1]">
                   {"I'm"}
                   <span className="ml-2 bg-white px-1 py-1 text-primary">
@@ -50,7 +58,7 @@ export default function SiteHero() {
                 <p>I handle both ends of the development from the ground up.</p>
               </div>
               <div className="inline-block relative">
-                <div className="space-x-3 relative z-[1]">
+                <div className="flex flex-col sm:flex-row gap-3 relative z-[1]">
                   <a href="/#contact">
                     <button className="btn btn-dark btn-lg">Contact Me</button>
                   </a>

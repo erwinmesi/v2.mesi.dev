@@ -13,7 +13,7 @@ export default function Home() {
         </a>{' '}
         to view my current website.
       </div>
-      <main className="bg-slate-50 min-h-screen">
+      <main className="bg-slate-50 min-h-screen overflow-hidden">
         <SiteNavbar />
         <SiteHero />
       </main>
