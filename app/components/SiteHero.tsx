@@ -34,7 +34,7 @@ export default function SiteHero() {
                   <img
                     src={mesiImage.src}
                     alt="Erwin Mesias"
-                    className="relative z-[1] w-48 aspect-square mb-8 border-4 shadow rounded-full md:hidden"
+                    className="relative z-[1] w-36 aspect-square mb-8 border-[3px] shadow rounded-full md:hidden"
                   />
                 </picture>
                 <p className="relative z-[1]">
@@ -46,11 +46,11 @@ export default function SiteHero() {
               </div>
               <h1 className="text-4xl lg:text-5xl font-black inline-flex flex-col sm:flex-row sm:items-center gap-x-3 gap-y-2">
                 Full-Stack{' '}
-                <span className="bg-white text-primary px-2 py-1">
+                <span className="bg-white text-primary px-2 py-1 -ml-2 sm:ml-0">
                   Web Developer
                 </span>
               </h1>
-              <div className="py-6 space-y-4 text-base md:text-lg font-medium text-typo md:text-gray-50 lg:text-gray-700 lg:w-3/5 xl:w-full pr-8 md:drop-shadow-sm-white">
+              <div className="py-6 space-y-4 text-base md:text-lg font-medium text-typo md:text-gray-50 lg:text-gray-700 lg:w-3/5 xl:w-full lg:pr-14 md:drop-shadow-sm-white">
                 <p>
                   Full-Stack Web and Cross-Platform Mobile Developer with vast
                   experience in coding different Web Frameworks.
@@ -58,12 +58,12 @@ export default function SiteHero() {
                 <p>I handle both ends of the development from the ground up.</p>
               </div>
               <div className="inline-block relative">
-                <div className="flex flex-col sm:flex-row gap-3 relative z-[1]">
+                <div className="flex gap-x-3 relative z-[1]">
                   <a href="/#contact">
-                    <button className="btn btn-dark btn-lg">Contact Me</button>
+                    <button className="btn btn-dark md:btn-lg">Contact Me</button>
                   </a>
                   <a href="/#cv">
-                    <button className="btn btn-light btn-lg">
+                    <button className="btn btn-light md:btn-lg">
                       Download CV
                     </button>
                   </a>

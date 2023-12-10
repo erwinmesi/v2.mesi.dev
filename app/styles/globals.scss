@@ -8,25 +8,28 @@ body {
   @apply text-typo;
 }
 
-@mixin btn {
-  @apply px-5 py-2.5 rounded-[22px] text-base font-medium shadow;
+@layer components {
 
-  &.btn-lg {
-    @apply px-7 py-4 rounded-[30px] text-lg;
+  @mixin btn {
+    @apply px-5 py-2.5 rounded-[22px] text-base font-medium shadow;
+
+    &.btn-lg {
+      @apply px-7 py-4 rounded-[30px] text-lg;
+    }
   }
-}
 
-.btn.btn-primary {
-  @include btn;
-  @apply bg-primary-450 hover:bg-primary-400 text-typo;
-}
+  .btn.btn-primary {
+    @include btn;
+    @apply bg-primary-450 hover:bg-primary-400 text-typo;
+  }
 
-.btn.btn-dark {
-  @include btn;
-  @apply bg-gray-800 hover:bg-gray-700 text-white;
-}
+  .btn.btn-dark {
+    @include btn;
+    @apply bg-gray-800 hover:bg-gray-700 text-white;
+  }
 
-.btn.btn-light {
-  @include btn;
-  @apply bg-white hover:bg-gray-50 text-typo;
+  .btn.btn-light {
+    @include btn;
+    @apply bg-white hover:bg-gray-50 text-typo;
+  }
 }
