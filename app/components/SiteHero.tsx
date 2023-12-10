@@ -5,9 +5,9 @@ import SymbolCircle from '@/app/components/shared/SymbolCircle'
 export default function SiteHero() {
   return (
     <section id="home--hero" className="md:mt-3">
-      <div className="sm:px-3 md:px-6 max-w-7xl mx-auto">
+      <div className="md:px-6 max-w-7xl mx-auto">
         <div className="relative py-20 md:py-28 lg:py-24 xl:py-28">
-          <div className="z-[1] absolute inset-0 bg-primary-450 sm:rounded-[32px] overflow-hidden">
+          <div className="z-[1] absolute inset-0 bg-primary-450 md:rounded-[32px] overflow-hidden shadow-lg">
             <SymbolBento
               picClass="absolute bottom-0 left-0"
               imgClass="w-24 opacity-30"
@@ -30,7 +30,7 @@ export default function SiteHero() {
                   imgClass="w-24 opacity-30"
                 />
                 <p className="relative z-[1]">
-                  I'm
+                  {"I'm"}
                   <span className="ml-2 bg-white px-1 py-1 text-primary">
                     Erwin Mesias
                   </span>
@@ -51,8 +51,14 @@ export default function SiteHero() {
               </div>
               <div className="inline-block relative">
                 <div className="space-x-3 relative z-[1]">
-                  <button className="btn btn-dark btn-lg">Contact Me</button>
-                  <button className="btn btn-light btn-lg">Download CV</button>
+                  <a href="/#contact">
+                    <button className="btn btn-dark btn-lg">Contact Me</button>
+                  </a>
+                  <a href="/#cv">
+                    <button className="btn btn-light btn-lg">
+                      Download CV
+                    </button>
+                  </a>
                 </div>
                 <SymbolCircle svgClass="border-4 w-[100px] top-[50%] left-[50%] -translate-x-1/2" />
               </div>

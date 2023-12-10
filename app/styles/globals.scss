@@ -9,7 +9,7 @@ body {
 }
 
 @mixin btn {
-  @apply px-5 py-2.5 rounded-[22px] text-base font-medium shadow-soft;
+  @apply px-5 py-2.5 rounded-[22px] text-base font-medium shadow;
 
   &.btn-lg {
     @apply px-7 py-4 rounded-[30px] text-lg;
@@ -29,8 +29,4 @@ body {
 .btn.btn-light {
   @include btn;
   @apply bg-white hover:bg-gray-50 text-typo;
-}
-
-:root {
-  --shadow-soft: 0 14px 30px 0 rgb(107, 107, 107, 0.10), 0 2px 2px 0 rgb(107, 107, 107, 0.25)
 }
