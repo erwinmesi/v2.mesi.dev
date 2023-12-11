@@ -3,10 +3,10 @@ import mesiImage from '@/app/assets/images/mesi.webp'
 import SymbolBento from '@/app/components/shared/SymbolBento'
 import SymbolCircle from '@/app/components/shared/SymbolCircle'
 
-export default function SiteHero() {
+export default function HomeHero() {
   return (
-    <section id="home--hero" className="md:mt-3">
-      <div className="md:px-6 max-w-7xl mx-auto">
+    <section id="home--hero" className="md:pt-3 md:pb-10 xl:pb-16">
+      <div className="site__container !px-0 md:!px-6">
         <div className="relative py-8 md:py-28 lg:py-24 xl:py-28">
           <div className="z-[1] absolute inset-0 bg-primary-450 md:rounded-[32px] overflow-hidden shadow-lg">
             <SymbolBento
@@ -59,8 +59,8 @@ export default function SiteHero() {
               </div>
               <div className="inline-block relative">
                 <div className="flex gap-x-3 relative z-[1]">
-                  <a href="/#contact">
-                    <button className="btn btn-dark md:btn-lg">Contact Me</button>
+                  <a href="/#projects">
+                    <button className="btn btn-dark md:btn-lg">View Projects</button>
                   </a>
                   <a href="/#cv">
                     <button className="btn btn-light md:btn-lg">
@@ -73,7 +73,7 @@ export default function SiteHero() {
             </div>
             <picture className="z-[0] hidden md:block w-1/2">
               <img
-                className="h-[650px] xl:h-[750px] absolute object-contain top-1/2 -translate-y-1/2 md:right-[-50px] lg:right-[50px] xl:right-1/4 xl:translate-x-1/2"
+                className="h-[650px] md:h-[700px] xl:h-[750px] absolute object-contain top-1/2 -translate-y-1/2 md:right-[-50px] lg:right-[35px] xl:right-1/4 xl:translate-x-1/2"
                 src={image.src}
                 alt="Erwin Mesias"
               />

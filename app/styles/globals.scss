@@ -11,7 +11,7 @@ body {
 @layer components {
 
   @mixin btn {
-    @apply px-5 py-2.5 rounded-[22px] text-base font-medium shadow;
+    @apply px-5 py-2.5 rounded-[22px] text-base font-medium shadow inline-flex items-center whitespace-nowrap gap-x-2;
 
     &.btn-lg {
       @apply px-7 py-4 rounded-[30px] text-lg;
@@ -20,7 +20,7 @@ body {
 
   .btn.btn-primary {
     @include btn;
-    @apply bg-primary-450 hover:bg-primary-400 text-typo;
+    @apply bg-primary-450 hover:bg-primary-400 text-white;
   }
 
   .btn.btn-dark {
@@ -32,4 +32,8 @@ body {
     @include btn;
     @apply bg-white hover:bg-gray-50 text-typo;
   }
+}
+
+.site__container {
+  @apply max-w-7xl mx-auto px-6 sm:px-8 md:px-10;
 }
