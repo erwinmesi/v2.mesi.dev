@@ -11,10 +11,14 @@ body {
 @layer components {
 
   @mixin btn {
-    @apply px-5 py-2.5 rounded-[22px] text-base font-medium shadow inline-flex items-center whitespace-nowrap gap-x-2;
+    @apply px-5 py-2.5 rounded-[30px] text-base font-medium shadow inline-flex items-center whitespace-nowrap gap-x-2;
 
     &.btn-lg {
-      @apply px-7 py-4 rounded-[30px] text-lg;
+      @apply px-7 py-4 text-lg;
+    }
+
+    &.btn-sm {
+      @apply px-4 py-2 text-sm;
     }
   }
 
@@ -36,4 +40,8 @@ body {
 
 .site__container {
   @apply max-w-7xl mx-auto px-6 sm:px-8 md:px-10;
+}
+
+.section__header {
+  @apply text-3xl text-primary font-black;
 }
