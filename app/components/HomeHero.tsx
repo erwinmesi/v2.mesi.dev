@@ -60,9 +60,11 @@ export default function HomeHero() {
               <div className="inline-block relative">
                 <div className="flex gap-x-3 relative z-[1]">
                   <a href="/#projects">
-                    <button className="btn btn-dark md:btn-lg">View Projects</button>
+                    <button className="btn btn-dark md:btn-lg">
+                      View Projects
+                    </button>
                   </a>
-                  <a href="/#cv">
+                  <a href="/erwin_mesias_cv.pdf" target="_blank" download>
                     <button className="btn btn-light md:btn-lg">
                       Download CV
                     </button>

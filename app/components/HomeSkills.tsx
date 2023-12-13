@@ -54,6 +54,9 @@ function HomeSkills() {
             </div>
           ))}
         </div>
+        <p className="text-slate-500 text-sm text-center mt-12">
+          🚧 I have more skills than these.<br></br>Editing icons take time 😅 Will add more soon 🙌
+        </p>
       </div>
     </section>
   )
