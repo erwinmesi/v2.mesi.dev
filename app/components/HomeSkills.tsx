@@ -11,7 +11,7 @@ function HomeSkills() {
     >
       <div className="site__container py-16">
         <div className="text-center mb-10 space-y-2">
-          <h2 className="section__header !text-slate-700">My Tech Stack</h2>
+          <h2 className="section__header">My Tech Stack</h2>
           <p className="text-slate-500 text-sm">
             Programming tools that I use a lot.
           </p>

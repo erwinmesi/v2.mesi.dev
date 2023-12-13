@@ -9,7 +9,8 @@ type HomeAboutProps = {
 
 const HomeAbout = ({ className }: HomeAboutProps) => {
   return (
-    <section id="home__about"
+    <section
+      id="home__about"
       className={(cn(className), 'bg-primary-50 relative z-[2] py-12 xl:py-16')}
     >
       <div className="site__container">
@@ -36,9 +37,10 @@ const HomeAbout = ({ className }: HomeAboutProps) => {
           </div>
           <div className="flex flex-col justify-center flex-1">
             <div className="max-w-2xl mx-auto">
-              <h2 className="section__header mb-10">
-                About Me
-              </h2>
+              <div className="mb-10">
+                <p className="text-slate-500">Quick self introduction</p>
+                <h2 className="section__header !text-primary">About Me</h2>
+              </div>
               <div className="space-y-2 mb-6">
                 <h3 className="font-semibold">
                   Full-Stack Web Developer with 7 years of experience
