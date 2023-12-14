@@ -5,8 +5,8 @@ import SymbolCircle from '@/app/components/shared/SymbolCircle'
 
 export default function HomeHero() {
   return (
-    <section id="home__hero" className="md:pt-3 md:pb-10 xl:pb-16">
-      <div className="site__container !px-0 md:!px-6">
+    <section id="home-hero" className="md:pt-3 md:pb-10 xl:pb-16">
+      <div className="site-container !px-0 md:!px-6">
         <div className="relative py-8 md:py-28 lg:py-24 xl:py-28">
           <div className="z-[1] absolute inset-0 bg-primary-450 md:rounded-[32px] overflow-hidden shadow-lg">
             <SymbolBento

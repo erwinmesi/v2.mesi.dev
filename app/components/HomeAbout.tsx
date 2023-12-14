@@ -10,10 +10,10 @@ type HomeAboutProps = {
 const HomeAbout = ({ className }: HomeAboutProps) => {
   return (
     <section
-      id="home__about"
+      id="home-about"
       className={(cn(className), 'bg-primary-50 relative z-[2] py-12 xl:py-16')}
     >
-      <div className="site__container">
+      <div className="site-container">
         <div className="flex flex-col-reverse lg:flex-row gap-y-12 gap-x-16">
           <div className="grid place-content-center shrink-0 lg:px-12">
             <picture className="relative -left-5 sm:left-[unset]">
@@ -39,7 +39,7 @@ const HomeAbout = ({ className }: HomeAboutProps) => {
             <div className="max-w-2xl mx-auto">
               <div className="mb-10">
                 <p className="text-slate-500">Quick self introduction</p>
-                <h2 className="section__header !text-primary">About Me</h2>
+                <h2 className="section-header !text-primary">About Me</h2>
               </div>
               <div className="space-y-2 mb-6">
                 <h3 className="font-semibold">

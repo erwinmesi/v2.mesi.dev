@@ -5,13 +5,13 @@ import bg from '@/app/assets/images/abstract_boxes.webp'
 function HomeSkills() {
   return (
     <section
-      id="home__skills"
+      id="home-skills"
       style={{ backgroundImage: `url('${bg.src}')` }}
       className="bg-cover bg-right"
     >
-      <div className="site__container py-16">
+      <div className="site-container py-16">
         <div className="text-center mb-10 space-y-2">
-          <h2 className="section__header">My Tech Stack</h2>
+          <h2 className="section-header">My Tech Stack</h2>
           <p className="text-slate-500 text-sm">
             Programming tools that I use a lot.
           </p>
