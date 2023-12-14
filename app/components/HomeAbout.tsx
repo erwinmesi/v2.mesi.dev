@@ -16,7 +16,7 @@ const HomeAbout = ({ className }: HomeAboutProps) => {
       <div className="site__container">
         <div className="flex flex-col-reverse lg:flex-row gap-y-12 gap-x-16">
           <div className="grid place-content-center shrink-0 lg:px-12">
-            <picture className="relative">
+            <picture className="relative -left-5 sm:left-[unset]">
               <img src={image.src} alt="Erwin Mesias" className="w-[350px]" />
               <FloatingStats
                 data="60+"
