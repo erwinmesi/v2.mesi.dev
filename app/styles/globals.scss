@@ -45,3 +45,7 @@ body {
 .section-header {
   @apply text-4xl text-pinion-blue font-black;
 }
+
+.section-sub-header {
+  @apply text-slate-500 text-sm my-2;
+}

@@ -38,7 +38,7 @@ const HomeAbout = ({ className }: HomeAboutProps) => {
           <div className="flex flex-col justify-center flex-1">
             <div className="max-w-2xl mx-auto">
               <div className="mb-10">
-                <p className="text-slate-500">Quick self introduction</p>
+                <p className="section-sub-header">Quick self introduction</p>
                 <h2 className="section-header !text-primary">About Me</h2>
               </div>
               <div className="space-y-2 mb-6">

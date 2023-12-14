@@ -10,9 +10,9 @@ function HomeSkills() {
       className="bg-cover bg-right"
     >
       <div className="site-container py-16">
-        <div className="text-center mb-10 space-y-2">
+        <div className="text-center mb-10">
           <h2 className="section-header">My Tech Stack</h2>
-          <p className="text-slate-500 text-sm">
+          <p className="section-sub-header">
             Programming tools that I use a lot.
           </p>
         </div>
