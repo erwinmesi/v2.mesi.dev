@@ -64,7 +64,7 @@ export const skills = [
   {
     name: 'Zustand',
     group: 'State Mgmt',
-    years: 5,
+    years: 1,
     logo: imgZustand.src,
     className: 'border-[#453E38]',
   },
@@ -85,14 +85,14 @@ export const skills = [
   {
     name: 'Pinia',
     group: 'State Mgmt',
-    years: 5,
+    years: 4,
     logo: imgPinia.src,
     className: 'border-[#8CDA3F]',
   },
   {
     name: 'Vuex',
     group: 'State Mgmt',
-    years: 5,
+    years: 7,
     logo: imgVuex.src,
     className: 'border-[#42b983]',
   },
