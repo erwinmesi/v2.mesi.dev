@@ -1,4 +1,4 @@
-import { skillGroup, skills } from '@/app/configs/site'
+import { skillGroup, skills } from '@/app/configs/skills'
 import cn from 'classnames'
 import bg from '@/app/assets/images/abstract_boxes.webp'
 
