@@ -1,4 +1,4 @@
-import { skills } from '@/app/configs/site'
+import { skillGroup, skills } from '@/app/configs/site'
 import cn from 'classnames'
 import bg from '@/app/assets/images/abstract_boxes.webp'
 
@@ -16,16 +16,14 @@ function HomeSkills() {
             Programming tools that I use a lot.
           </p>
         </div>
-        {/* <div className="flex justify-center flex-wrap mb-12 gap-2">
+        <div className="flex justify-center flex-wrap mb-12 gap-2 max-w-2xl mx-auto">
           <button className="btn btn-primary btn-sm">All</button>
-          <button className="btn btn-light btn-sm">JavaScript</button>
-          <button className="btn btn-light btn-sm">Styling</button>
-          <button className="btn btn-light btn-sm">Backend</button>
-          <button className="btn btn-light btn-sm">Testing</button>
-          <button className="btn btn-light btn-sm">Web Design</button>
-          <button className="btn btn-light btn-sm">Database</button>
-          <button className="btn btn-light btn-sm">CMS</button>
-        </div> */}
+          {Object.values(skillGroup).map((group: any) => (
+            <button key={group} className="btn btn-light btn-sm">
+              {group}
+            </button>
+          ))}
+        </div>
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-y-6 gap-x-4">
           {skills.map((skill: any) => (
             <div
