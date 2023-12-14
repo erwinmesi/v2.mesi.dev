@@ -14,7 +14,7 @@ const config: Config = {
       },
 
       colors: {
-        'pinion-blue': '#0d3b66',
+        'pinion-blue': 'var(--color-pinion-blue)',
 
         primary: {
           50: 'var(--color-primary-50)',
@@ -58,6 +58,10 @@ const config: Config = {
           950: 'var(--color-typo-950)',
         },
       },
+
+      fontSize: {
+        '2xs': '0.625rem',
+      }
     },
   },
 

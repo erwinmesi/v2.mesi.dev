@@ -26,7 +26,7 @@ function HomeSkills() {
           <button className="btn btn-light btn-sm">Database</button>
           <button className="btn btn-light btn-sm">CMS</button>
         </div> */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-y-6 gap-x-4">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-y-6 gap-x-4">
           {skills.map((skill: any) => (
             <div
               className="h-16 flex gap-x-3 items-center mx-4"
@@ -43,7 +43,7 @@ function HomeSkills() {
                 </picture>
               </div>
               <div className="flex flex-col gap-y-0.5">
-                <p className="uppercase text-xs font-light text-typo-500">
+                <p className="uppercase text-2xs font-light text-typo-500">
                   {skill.group}
                 </p>
                 <p className="font-bold">{skill.name}</p>
@@ -54,9 +54,6 @@ function HomeSkills() {
             </div>
           ))}
         </div>
-        <p className="text-slate-500 text-sm text-center mt-12">
-          🚧 I have more skills than these.<br></br>Editing icons take time 😅 Will add more soon 🙌
-        </p>
       </div>
     </section>
   )
