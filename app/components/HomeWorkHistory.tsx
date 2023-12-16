@@ -18,7 +18,7 @@ function HomeWorkHistory() {
             A timeline of my professional journey and milestones
           </p>
         </div>
-        <div className="max-w-2xl mx-auto mt-10">
+        <div className="max-w-4xl mx-auto mt-10">
           {workHistory.map((job, index) => (
             <Fragment key={index}>
               <WorkHistoryCard job={job} />

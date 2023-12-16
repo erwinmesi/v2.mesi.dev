@@ -34,7 +34,7 @@ function WorkHistoryCard({ job }: WorkHistoryCardProps) {
             <strong className="text-sm">{job.to.year}</strong>
           </div>
         </div>
-        <div className="flex-1 border-t sm:border-l pt-4 sm:pt-6 p-6 space-y-4">
+        <div className="flex-1 border-t sm:border-t-0 sm:border-l pt-4 sm:pt-6 p-6 space-y-4">
           <div>
             <h3 className="text-pinion-blue font-extrabold text-lg md:text-xl mb-0.5">
               {job.position}
