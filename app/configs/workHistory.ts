@@ -38,8 +38,8 @@ export const workHistory: Job[] = [
       'Strapi',
     ],
     from: {
-      month: 'Dec',
-      year: '2017',
+      month: 'Sep',
+      year: '2022',
     },
     to: {
       month: null,
@@ -124,7 +124,7 @@ export const workHistory: Job[] = [
       '<p>After my 6-months from my first corporate job, I applied to Accenture. While processing my application, I tried entering Upwork freelancing. I was able to get some clients with small projects and worked as a full-time freelancer.</p><p>This is when I first learned how to work remotely.</p>',
     technologies: ['Vue.js', 'Laravel', 'Semantic UI', 'Loopback', 'Bootstrap'],
     from: {
-      month: 'Sept',
+      month: 'Sep',
       year: '2017',
     },
     to: {
