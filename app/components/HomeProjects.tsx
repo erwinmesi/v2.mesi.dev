@@ -1,0 +1,71 @@
+import { projects } from '@/app/configs/projects'
+import { Fragment } from 'react'
+import cn from 'classnames'
+import Dot from '@/app/components/shared/Dot'
+import SymbolCircle from '@/app/components/shared/SymbolCircle'
+
+function HomeProjects() {
+  return (
+    <section id="home-projects" className="bg-white relative overflow-hidden">
+      <SymbolCircle svgClass="border-[10px] border-gray-100 !opacity-100 md:!opacity-50 w-[50%] left-0 top-0 -translate-x-1/2 -translate-y-1/2" />
+      <SymbolCircle svgClass="bg-gray-200 lg:bg-gray-100 !opacity-100 w-[175%] right-0 top-[200px] translate-x-1/2" />
+      <SymbolCircle svgClass="md:hidden border-[20px] border-gray-200 !opacity-100 w-[175%] right-0 bottom-0 translate-x-1/2 translate-y-1/2" />
+      <div className="site-container py-16 relative z-[1]">
+        <div className="mb-10">
+          <h2 className="section-header">Featured Works</h2>
+          <p className="section-sub-header">
+            A collection of projects I was heavily involved in.
+          </p>
+        </div>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 xl:gap-8">
+          {projects.map((project, index) => (
+            <div
+              key={index}
+              className={cn('group shadow md:rounded-lg xl:rounded-xl overflow-hidden', project.className)}
+            >
+              <div className="flex flex-col justify-between h-full">
+                <div className="flex-1 overflow-hidden">
+                  <picture className="block transition-all brightness-[0.9] group-hover:brightness-100 group-hover:scale-[1.033] w-full h-full duration-300">
+                    <img
+                      src={project.thumbnail}
+                      alt={project.name}
+                      className={cn(
+                        'w-full object-cover object-top',
+                        project.thumbnailClass
+                      )}
+                    />
+                  </picture>
+                </div>
+                <div className="p-6 bg-white border-t">
+                  <h3 className="font-semibold text-navy-blue">
+                    {project.name}
+                  </h3>
+                  <p className="text-sm mt-1 font-medium text-typo-700">
+                    {project.role}
+                  </p>
+                  <p className="text-sm mt-3 text-typo-600">
+                    {project.description}
+                  </p>
+                  <ul className="flex flex-wrap text-xs text-typo-500 mt-2">
+                    {project.technologies.map((technology, index) => (
+                      <Fragment key={index}>
+                        <li>{technology}</li>
+                        {index < project.technologies.length - 1 && (
+                          <li>
+                            <Dot />
+                          </li>
+                        )}
+                      </Fragment>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  )
+}
+
+export default HomeProjects

@@ -26,7 +26,8 @@ export const workHistory: Job[] = [
     company_url: undefined,
     logo_url: imgCodevol.src,
     position: 'Full-Stack Web Developer',
-    description: "Managed projects to enhance clients' marketing through websites, apps, and e-commerce.",
+    description:
+      '<p>I handle projects mainly intended to help clients with their marketing needs.</p><p>Primarily work on Marketing Websites such as Landing Pages, Advertising-related Web Apps and E-commerce Websites.</p>',
     technologies: [
       'Vue.js',
       'React.js',
@@ -50,7 +51,8 @@ export const workHistory: Job[] = [
     company_url: 'https://i-cube-digitalsolutions.com/',
     logo_url: imgIcube.src,
     position: 'Senior Web Developer',
-    description: "Led projects using front/back-end tools and handled project management tasks.",
+    description:
+      '<p>Handled projects using various front-end and back-end tools.</p><p>Also did Project Management tasks — talking to clients, handling Scrum meetings, setting up sprints and handling project requirements and documentations.</p>',
     technologies: [
       'Vue.js',
       'Nuxt.js',
@@ -74,7 +76,8 @@ export const workHistory: Job[] = [
     company_url: 'https://www.upwork.com/freelancers/~0199bd5921ffe7c943',
     logo_url: imgUpwork.src,
     position: 'Full-Stack Web and Cross-Platform Mobile Developer',
-    description: "Started full-time freelancing, gaining remote work and client management skills.",
+    description:
+      '<p>After 6-months from my first corporate job, I started working as a full-time freelancer. I handled projects from clients from different parts of the world.</p><p>This is where I learned how to work with clients remotely and learned the skills to handle and retain clients.</p>',
     technologies: [
       'Vue.js',
       'Nuxt.js',
@@ -87,8 +90,8 @@ export const workHistory: Job[] = [
       'Angular',
     ],
     from: {
-      month: 'Feb',
-      year: '2018',
+      month: 'Oct',
+      year: '2017',
     },
     to: {
       month: 'Jan',
@@ -96,43 +99,12 @@ export const workHistory: Job[] = [
     },
   },
   {
-    company_name: 'Associate Software Engineer',
-    company_url: 'https://www.accenture.com/ph-en/',
-    logo_url: imgIcube.src,
-    position: 'Associate Software Engineer',
-    description: "Shifted from a Coder to SAP Consultant, then resigned to focus on coding.",
-    technologies: ['SAP HCM', 'SAP MM'],
-    from: {
-      month: 'Dec',
-      year: '2017',
-    },
-    to: {
-      month: 'Feb',
-      year: '2018',
-    },
-  },
-  {
-    company_name: 'Upwork',
-    company_url: 'https://www.upwork.com/freelancers/~0199bd5921ffe7c943',
-    logo_url: imgUpwork.src,
-    position: 'Full-Stack Web Developer',
-    description: "Explored Upwork freelancing, and embraced remote work.",
-    technologies: ['Vue.js', 'Laravel', 'Semantic UI', 'Loopback', 'Bootstrap'],
-    from: {
-      month: 'Sep',
-      year: '2017',
-    },
-    to: {
-      month: 'Dec',
-      year: '2017',
-    },
-  },
-  {
     company_name: 'Solution Resource Inc.',
     company_url: 'https://solutionsresource.com/',
     logo_url: imgSri.src,
     position: 'Software Development Engineer',
-    description: "Started in software development, progressed from intern to full-time, worked on a major TV network project.",
+    description:
+      '<p>This is where I started my career as a Software Developer. I started as an intern and was hired as a full-time employee after 4 months.</p><p>The highlight of my stay here is when I was assigned to a huge Philippine TV Network where I worked on one of their projects.</p>',
     technologies: [
       'Angular JS',
       'jQuery',

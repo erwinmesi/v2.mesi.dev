@@ -9,7 +9,7 @@ type WorkHistoryCardProps = {
 
 function WorkHistoryCard({ job }: WorkHistoryCardProps) {
   return (
-    <div className="border border-gray-100 rounded-lg shadow-lg bg-white">
+    <div className="border border-gray-100 md:rounded-lg shadow bg-white">
       <div className="flex flex-col sm:flex-row">
         <div className="relative flex flex-row sm:flex-col justify-end sm:justify-start text-center gap-y-2 py-[18px] sm:pt-12 sm:pb-5 px-5 shrink-0">
           <picture className="absolute left-12 sm:left-1/2 -translate-x-1/2 top-2 sm:-top-3 bg-primary rounded-full grid place-content-center shadow w-10 sm:w-11 h-10 sm:h-11">
@@ -36,13 +36,13 @@ function WorkHistoryCard({ job }: WorkHistoryCardProps) {
         </div>
         <div className="flex-1 border-t sm:border-t-0 sm:border-l pt-4 sm:pt-6 p-6 space-y-4">
           <div>
-            <h3 className="text-pinion-blue font-extrabold text-lg md:text-xl mb-0.5">
+            <h3 className="text-navy-blue font-extrabold text-lg md:text-xl mb-0.5">
               {job.position}
             </h3>
             {job.company_url ? (
               <a
                 href={job.company_url}
-                className="font-semibold text-typo-600 flex gap-x-2 items-center hover:underline"
+                className="font-semibold text-typo-600 inline-flex gap-x-2 items-center hover:underline"
               >
                 {job.company_name}
                 <ArrowTopRightOnSquareIcon height="16" />

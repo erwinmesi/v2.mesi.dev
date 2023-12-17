@@ -14,7 +14,7 @@ const config: Config = {
       },
 
       colors: {
-        'pinion-blue': 'var(--color-pinion-blue)',
+        'navy-blue': 'var(--color-navy-blue)',
 
         primary: {
           50: 'var(--color-primary-50)',
