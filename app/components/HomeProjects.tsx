@@ -3,13 +3,19 @@ import { Fragment } from 'react'
 import cn from 'classnames'
 import Dot from '@/app/components/shared/Dot'
 import SymbolCircle from '@/app/components/shared/SymbolCircle'
+import imageWarp from '@/app/assets/images/warp.svg'
 
 function HomeProjects() {
   return (
-    <section id="home-projects" className="bg-gray-100 md:bg-white relative overflow-hidden">
-      <SymbolCircle svgClass="hidden md:block border-[10px] border-gray-100 !opacity-100 md:!opacity-50 w-[50%] left-0 top-0 -translate-x-1/2 -translate-y-1/2" />
-      <SymbolCircle svgClass="hidden md:block bg-gray-200 lg:bg-gray-100 !opacity-100 w-[175%] right-0 top-[200px] translate-x-1/2" />
-      <div className="site-container py-16 relative z-[1]">
+    <section
+      id="home-projects"
+      className="bg-gray-100 md:bg-white relative overflow-hidden"
+    >
+      <picture>
+        <img src={imageWarp.src} alt="Warp" className="w-full" />
+      </picture>
+      <SymbolCircle svgClass="hidden md:block bg-gray-100 lg:bg-gray-50 !opacity-100 w-[175%] right-0 top-[200px] translate-x-1/2" />
+      <div className="site-container 2xl:pt-8 py-16 relative z-[1]">
         <div className="mb-10">
           <h2 className="section-header">Featured Works</h2>
           <p className="section-sub-header">
@@ -20,7 +26,10 @@ function HomeProjects() {
           {projects.map((project, index) => (
             <div
               key={index}
-              className={cn('group shadow md:rounded-lg overflow-hidden', project.className)}
+              className={cn(
+                'group shadow md:rounded overflow-hidden',
+                project.className
+              )}
             >
               <div className="flex flex-col justify-between h-full">
                 <div className="flex-1 overflow-hidden">
@@ -36,9 +45,7 @@ function HomeProjects() {
                   </picture>
                 </div>
                 <div className="p-6 bg-white border-t">
-                  <h3 className="font-bold text-navy-blue">
-                    {project.name}
-                  </h3>
+                  <h3 className="font-bold text-navy-blue">{project.name}</h3>
                   <p className="text-sm mt-1 font-semibold text-typo-700">
                     {project.role}
                   </p>
