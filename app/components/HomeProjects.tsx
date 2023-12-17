@@ -6,10 +6,9 @@ import SymbolCircle from '@/app/components/shared/SymbolCircle'
 
 function HomeProjects() {
   return (
-    <section id="home-projects" className="bg-white relative overflow-hidden">
-      <SymbolCircle svgClass="border-[10px] border-gray-100 !opacity-100 md:!opacity-50 w-[50%] left-0 top-0 -translate-x-1/2 -translate-y-1/2" />
-      <SymbolCircle svgClass="bg-gray-200 lg:bg-gray-100 !opacity-100 w-[175%] right-0 top-[200px] translate-x-1/2" />
-      <SymbolCircle svgClass="md:hidden border-[20px] border-gray-200 !opacity-100 w-[175%] right-0 bottom-0 translate-x-1/2 translate-y-1/2" />
+    <section id="home-projects" className="bg-gray-100 md:bg-white relative overflow-hidden">
+      <SymbolCircle svgClass="hidden md:block border-[10px] border-gray-100 !opacity-100 md:!opacity-50 w-[50%] left-0 top-0 -translate-x-1/2 -translate-y-1/2" />
+      <SymbolCircle svgClass="hidden md:block bg-gray-200 lg:bg-gray-100 !opacity-100 w-[175%] right-0 top-[200px] translate-x-1/2" />
       <div className="site-container py-16 relative z-[1]">
         <div className="mb-10">
           <h2 className="section-header">Featured Works</h2>
@@ -21,11 +20,11 @@ function HomeProjects() {
           {projects.map((project, index) => (
             <div
               key={index}
-              className={cn('group shadow md:rounded-lg xl:rounded-xl overflow-hidden', project.className)}
+              className={cn('group shadow md:rounded-lg overflow-hidden', project.className)}
             >
               <div className="flex flex-col justify-between h-full">
                 <div className="flex-1 overflow-hidden">
-                  <picture className="block transition-all brightness-[0.9] group-hover:brightness-100 group-hover:scale-[1.033] w-full h-full duration-300">
+                  <picture className="block transition-all brightness-100 md:brightness-[0.9] md:group-hover:brightness-100 md:group-hover:scale-[1.1] w-full h-full duration-500">
                     <img
                       src={project.thumbnail}
                       alt={project.name}
@@ -37,10 +36,10 @@ function HomeProjects() {
                   </picture>
                 </div>
                 <div className="p-6 bg-white border-t">
-                  <h3 className="font-semibold text-navy-blue">
+                  <h3 className="font-bold text-navy-blue">
                     {project.name}
                   </h3>
-                  <p className="text-sm mt-1 font-medium text-typo-700">
+                  <p className="text-sm mt-1 font-semibold text-typo-700">
                     {project.role}
                   </p>
                   <p className="text-sm mt-3 text-typo-600">
