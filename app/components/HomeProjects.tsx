@@ -57,17 +57,21 @@ function HomeProjects() {
                       </div>
                       <div className="p-6 bg-white border-t">
                         {project.domain && (
-                          <a
-                            className="text-xs text-typo-500 hover:underline"
-                            target="_blank"
-                            href={project.url as string}
-                          >
-                            {project.domain}
-                          </a>
+                          <div>
+                            <a
+                              className="text-xs text-typo-500 hover:underline inline-block"
+                              target="_blank"
+                              href={project.url as string}
+                            >
+                              {project.domain}
+                            </a>
+                          </div>
                         )}
                         <a
                           href={project.url as string}
-                          className={cn({ 'hover:underline': project.url })}
+                          className={cn('inline-block', {
+                            'hover:underline': project.url,
+                          })}
                           target="_blank"
                         >
                           <h3 className="font-bold text-navy-blue">

@@ -2,6 +2,7 @@ import image from '@/app/assets/images/project.webp'
 import hn from '@/app/assets/images/hn.webp'
 import nodelife from '@/app/assets/images/nodelife.webp'
 import wsag from '@/app/assets/images/wsag.webp'
+import prozess from '@/app/assets/images/prozess.webp'
 
 export const projects = [
   {
@@ -53,19 +54,19 @@ export const projects = [
     technologies: ['Vue.js', 'Tailwind'],
   },
   {
-    show: false,
+    show: true,
     active: true,
-    name: 'KotApp',
+    name: 'Prozess ERP',
     domain: null,
     url: null,
     role: 'Front-end Developer',
-    thumbnail: image.src,
+    thumbnail: prozess.src,
     thumbnailClass: 'h-[300px] md:h-[200px] lg:h-full',
     className: 'md:col-span-1 md:row-span-1 lg:col-span-1 lg:row-span-2',
-    about: '',
+    about: 'Enably is a partner to whom you can entrust your business IT. We know what it takes to help our clients succeed. We believe strongly in doing a job once & doing it well. We provide cost effective, enterprise grade IT solutions for every business. Technology & creativity combined, delivering innovative business solutions.',
     responsibility:
-      'Offers a motivational software package for companies who want to promote great values and motivation with their employees.',
-    technologies: ['Vue.js', 'Tailwind', 'Laravel'],
+      "Worked in developing the features for an ERP system that aligned with the company's mission of managing data effectively.",
+    technologies: ['Vue.js', 'Vuexy', 'Vuex', 'Bootstrap'],
   },
   {
     show: false,
