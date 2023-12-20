@@ -78,7 +78,7 @@ function HomeProjects() {
                         <div
                           className="text-sm py-3 text-typo-600"
                           dangerouslySetInnerHTML={{
-                            __html: project.description,
+                            __html: project.responsibility,
                           }}
                         />
                         <ul className="flex flex-wrap text-xs text-typo-500 mt-2">
