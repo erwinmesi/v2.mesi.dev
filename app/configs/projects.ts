@@ -33,7 +33,7 @@ export const projects = [
     about:
       'The Niche-Specific Google Ads Scraper is a robust tool designed to automate the extraction of Google Advertisements based on user-defined niche markets. This project was born out of the need for efficient, targeted ad analysis for niche marketing strategies. It offers a streamlined approach to gather ad data, helping marketers and businesses to understand their competition and market trends better.',
     responsibility:
-      '<p>I developed a scraper to automate the extraction of Google Ads based on user-defined niche markets.</p><br><p>The scraper was coded with the ReCaptcha-bypass in mind thru the use of proxies to avoid getting blocked by Google.</p>',
+      '<p>I developed a scraper to automate the extraction of Google Ads based on user-defined niche markets.</p><p>The scraper was coded with the ReCaptcha-bypass in mind thru the use of proxies to avoid getting blocked by Google.</p>',
     technologies: ['Python', 'Beautiful Soup', 'Nuxt.js', 'Laravel'],
   },
   {
