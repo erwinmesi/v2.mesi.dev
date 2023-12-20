@@ -3,6 +3,7 @@ import hn from '@/app/assets/images/hn.webp'
 import nodelife from '@/app/assets/images/nodelife.webp'
 import wsag from '@/app/assets/images/wsag.webp'
 import prozess from '@/app/assets/images/prozess.webp'
+import dag from '@/app/assets/images/dag.webp'
 
 export const projects = [
   {
@@ -69,19 +70,20 @@ export const projects = [
     technologies: ['Vue.js', 'Vuexy', 'Vuex', 'Bootstrap'],
   },
   {
-    show: false,
+    show: true,
     active: true,
     name: 'DAG Business Portal',
     domain: null,
     url: null,
     role: 'Full-Stack Developer',
-    thumbnail: image.src,
+    thumbnail: dag.src,
     thumbnailClass: 'h-[300px] md:h-full lg:h-[200px]',
-    className: 'md:col-span-1 md:row-span-2 lg:col-span-1 lg:row-span-1',
-    about: '',
+    // className: 'md:col-span-1 md:row-span-2 lg:col-span-1 lg:row-span-1',
+    className: 'md:col-span-1 md:row-span-2 lg:col-span-2 lg:row-span-1',
+    about: 'DAG is a private company based in Alkmaar, the Netherlands, founded in 2016. It specializes in corporate finance and asset management services. Their offerings include debt factoring, crowdfunding, purchase financing, consultancy, and financial advice.',
     responsibility:
-      'Offers a motivational software package for companies who want to promote great values and motivation with their employees.',
-    technologies: ['Vue.js', 'Tailwind', 'Laravel'],
+      "<p>Developed a comprehensive web application for DAG, a finance and asset management company.</p><p>The app features user-friendly interfaces for services like debt factoring, crowdfunding, and financial consulting.</p>",
+    technologies: ['Laravel', 'Vue.js', 'Bootstrap', 'Snappy PDF', 'Google Charts'],
   },
   {
     show: false,
