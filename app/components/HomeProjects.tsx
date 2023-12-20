@@ -61,7 +61,7 @@ function HomeProjects() {
                           target="_blank"
                           href={project.url as string}
                         >
-                          {project.url}
+                          {project.domain}
                         </a>
                         <a
                           href={project.url as string}

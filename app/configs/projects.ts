@@ -5,6 +5,7 @@ export const projects = [
   {
     show: true,
     name: 'Humble Nature Furniture E-commerce Website',
+    domain: 'humblenature.com',
     url: 'https://humblenature.com',
     role: 'Front-end Developer',
     thumbnail: hn.src,
@@ -19,6 +20,7 @@ export const projects = [
   {
     show: false,
     name: 'KotApp',
+    domain: null,
     url: null,
     role: 'Front-end Developer',
     thumbnail: image.src,
@@ -31,6 +33,7 @@ export const projects = [
   {
     show: false,
     name: 'DAG Business Portal',
+    domain: null,
     url: null,
     role: 'Full-Stack Developer',
     thumbnail: image.src,
@@ -43,6 +46,7 @@ export const projects = [
   {
     show: false,
     name: 'Soumission Rapide',
+    domain: null,
     url: null,
     role: 'Front-end Developer',
     thumbnail: image.src,
@@ -55,6 +59,7 @@ export const projects = [
   {
     show: false,
     name: 'Google Ads Scraper',
+    domain: null,
     url: null,
     role: 'Full-Stack Developer',
     thumbnail: image.src,
@@ -67,6 +72,7 @@ export const projects = [
   {
     show: false,
     name: 'Pointer',
+    domain: null,
     url: null,
     role: 'Full-Stack Developer',
     thumbnail: image.src,
