@@ -76,7 +76,7 @@ function HomeProjects() {
                           {project.role}
                         </p>
                         <div
-                          className="text-sm mt-3 text-typo-600"
+                          className="text-sm py-3 text-typo-600"
                           dangerouslySetInnerHTML={{
                             __html: project.description,
                           }}
