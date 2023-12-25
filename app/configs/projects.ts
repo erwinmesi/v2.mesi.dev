@@ -9,17 +9,17 @@ export const projects = [
   {
     show: true,
     active: true,
-    name: 'Humble Nature Furniture E-commerce Website',
-    domain: 'humblenature.com',
-    url: 'https://humblenature.com',
+    name: 'HN Furniture E-commerce Website',
+    domain: null,
+    url: null,
     role: 'Front-end Developer',
     thumbnail: hn.src,
     thumbnailClass: 'h-[300px] md:h-[250px] lg:h-full',
     className: 'md:col-span-1 md:row-span-1 lg:col-span-1 lg:row-span-2',
     about:
-      '<p>Humble Nature is a creative and technological platform that provides unique, world-class architectural pieces and products.</p>',
+      '<p>HN is a creative and technological platform that provides unique, world-class architectural pieces and products.</p>',
     responsibility:
-      "<p>Developed the frontend of the Humble Nature's E-commerce Website.</p><br><p>My role involved creating an engaging, user-friendly experience that highlights the brand's commitment to artistry, community, and environmental responsibility in the luxury market.</p>",
+      "<p>Developed the frontend of the HN's E-commerce Website.</p><br><p>My role involved creating an engaging, user-friendly experience that highlights the brand's commitment to artistry, community, and environmental responsibility in the luxury market.</p>",
     technologies: ['Vue.js', 'Tailwind', 'Django'],
   },
   {
@@ -57,7 +57,7 @@ export const projects = [
   {
     show: true,
     active: true,
-    name: 'Prozess ERP',
+    name: 'PZ ERP',
     domain: null,
     url: null,
     role: 'Front-end Developer',
@@ -73,8 +73,8 @@ export const projects = [
     show: true,
     active: true,
     name: 'DAG Business Portal',
-    domain: 'portal.dag-assetscan.nl',
-    url: 'https://dutchassetsgroup.nl',
+    domain: null,
+    url: null,
     role: 'Full-Stack Developer',
     thumbnail: dag.src,
     thumbnailClass: 'h-[300px] md:h-full lg:h-[200px]',
