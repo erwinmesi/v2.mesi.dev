@@ -4,6 +4,7 @@ import HomeHero from '@/app/components/HomeHero'
 import HomeSkills from '@/app/components/HomeSkills'
 import HomeWorkHistory from '@/app/components/HomeWorkHistory'
 import HomeProjects from '@/app/components/HomeProjects'
+import HomeReviews from '@/app/components/HomeReviews'
 import SiteNavbar from '@/app/components/SiteNavbar'
 import SiteWipNotice from '@/app/components/SiteWipNotice'
 
@@ -16,8 +17,9 @@ export default function Home() {
         <HomeHero />
         <HomeAbout />
         <HomeSkills />
-        <HomeWorkHistory />
         <HomeProjects />
+        <HomeReviews />
+        <HomeWorkHistory />
       </main>
     </>
   )

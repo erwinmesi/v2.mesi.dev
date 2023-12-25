@@ -5,7 +5,7 @@ import { Fragment, useEffect, useState } from 'react'
 import cn from 'classnames'
 import Dot from '@/app/components/shared/Dot'
 import SymbolCircle from '@/app/components/shared/SymbolCircle'
-import imageWarp from '@/app/assets/images/warp.svg'
+import imageWarp2 from '@/app/assets/images/warp-2.svg'
 
 function HomeProjects() {
   const [mounted, setMounted] = useState(false)
@@ -19,11 +19,8 @@ function HomeProjects() {
       id="home-projects"
       className="bg-gray-100 md:bg-white relative overflow-hidden"
     >
-      <picture>
-        <img src={imageWarp.src} alt="Warp" className="w-full" />
-      </picture>
       <SymbolCircle svgClass="hidden md:block bg-gray-100 lg:bg-gray-50 !opacity-100 w-[175%] right-0 top-[200px] translate-x-1/2" />
-      <div id="projects" className="site-container 2xl:pt-8 py-16 relative z-[1]">
+      <div id="projects" className="site-container py-16 relative z-[1]">
         <div className="mb-10">
           <h2 className="section-header">Featured Works</h2>
           <p className="section-sub-header">
@@ -107,6 +104,9 @@ function HomeProjects() {
           </div>
         )}
       </div>
+      <picture className='relative z-[1] -bottom-1'>
+        <img src={imageWarp2.src} alt="Warp" className="w-full rotate-180" />
+      </picture>
     </section>
   )
 }
