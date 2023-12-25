@@ -5,10 +5,11 @@ import HomeWorkHistory from '@/app/components/HomeWorkHistory'
 import HomeProjects from '@/app/components/HomeProjects'
 import HomeReviews from '@/app/components/HomeReviews'
 import SiteNavbar from '@/app/components/SiteNavbar'
+import SiteFooter from '@/app/components/SiteFooter'
 
 export default function Home() {
   return (
-    <main className="min-h-screen overflow-hidden pb-[1000px]">
+    <main className="min-h-screen overflow-hidden">
       <SiteNavbar />
       <HomeHero />
       <HomeAbout />
@@ -16,6 +17,7 @@ export default function Home() {
       <HomeProjects />
       <HomeReviews />
       <HomeWorkHistory />
+      <SiteFooter />
     </main>
   )
 }

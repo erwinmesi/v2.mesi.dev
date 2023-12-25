@@ -73,7 +73,7 @@ export const workHistory: Job[] = [
   },
   {
     company_name: 'Upwork',
-    company_url: 'https://www.upwork.com/freelancers/~0199bd5921ffe7c943',
+    company_url: 'https://www.upwork.com/fl/erwinmesi',
     logo_url: imgUpwork.src,
     position: 'Full-Stack Web and Cross-Platform Mobile Developer',
     description:

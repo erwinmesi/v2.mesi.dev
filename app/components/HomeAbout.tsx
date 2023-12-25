@@ -67,7 +67,7 @@ const HomeAbout = ({ className }: HomeAboutProps) => {
               </div>
               <div className="flex flex-col sm:flex-row gap-3 mt-10">
                 <a
-                  href="https://www.upwork.com/freelancers/~0199bd5921ffe7c943"
+                  href="https://www.upwork.com/fl/erwinmesi"
                   target="_blank"
                 >
                   <button className="btn btn-primary">
