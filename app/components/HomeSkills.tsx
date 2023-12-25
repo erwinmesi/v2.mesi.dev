@@ -5,7 +5,7 @@ import bg from '@/app/assets/images/abstract_boxes.webp'
 function HomeSkills() {
   return (
     <section
-      id="home-skills"
+      id="skills"
       style={{ backgroundImage: `url('${bg.src}')` }}
       className="bg-cover bg-right"
     >

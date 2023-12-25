@@ -23,7 +23,7 @@ function HomeProjects() {
         <img src={imageWarp.src} alt="Warp" className="w-full" />
       </picture>
       <SymbolCircle svgClass="hidden md:block bg-gray-100 lg:bg-gray-50 !opacity-100 w-[175%] right-0 top-[200px] translate-x-1/2" />
-      <div className="site-container 2xl:pt-8 py-16 relative z-[1]">
+      <div id="projects" className="site-container 2xl:pt-8 py-16 relative z-[1]">
         <div className="mb-10">
           <h2 className="section-header">Featured Works</h2>
           <p className="section-sub-header">
