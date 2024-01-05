@@ -3,7 +3,7 @@ import IconUpwork from '@/app/components/icons/IconUpwork'
 
 function SiteFooter() {
   return (
-    <div className="bg-gray-900 text-center text-white">
+    <div className="bg-gray-100 text-center">
       <div className="site-container py-6">
         <div className="flex justify-between items-start">
           <p className="text-sm">Erwin Mesias | mesi.dev</p>

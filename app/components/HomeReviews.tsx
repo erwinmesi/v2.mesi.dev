@@ -23,9 +23,9 @@ function HomeReviews() {
   return (
     <section
       id="home-reviews"
-      className="bg-gradient-to-b from-primary-50 to-primary-100"
+      className="bg-gradient-to-b from-gray-100 to-gray-50"
     >
-      <div className="pt-8 pb-16 px-6 sm:px-8 md:px-10 lg:px-12 xl:px-14 2xl:px-16">
+      <div className="pt-8 px-6 sm:px-8 md:px-10 lg:px-12 xl:px-14 2xl:px-16">
         <div className="mb-10 text-center">
           <h2 className="section-header">Client Testimonials</h2>
           <p className="section-sub-header">
@@ -69,7 +69,7 @@ function HomeReviews() {
             </div>
           ))}
         </div>
-        <div className="flex justify-center mt-20">
+        <div className="flex justify-center pt-16">
           <button
             className={cn('btn', limited ? 'btn-primary' : 'btn-light')}
             onClick={toggleReviewsLimit}

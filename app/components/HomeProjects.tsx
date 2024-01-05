@@ -5,7 +5,6 @@ import { Fragment, useEffect, useState } from 'react'
 import cn from 'classnames'
 import Dot from '@/app/components/shared/Dot'
 import SymbolCircle from '@/app/components/shared/SymbolCircle'
-import imageWarp2 from '@/app/assets/images/warp-2.svg'
 
 function HomeProjects() {
   const [mounted, setMounted] = useState(false)
@@ -104,9 +103,6 @@ function HomeProjects() {
           </div>
         )}
       </div>
-      <picture className='relative z-[1] -bottom-1'>
-        <img src={imageWarp2.src} alt="Warp" className="w-full rotate-180" />
-      </picture>
     </section>
   )
 }

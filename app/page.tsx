@@ -6,6 +6,7 @@ import HomeProjects from '@/app/components/HomeProjects'
 import HomeReviews from '@/app/components/HomeReviews'
 import SiteNavbar from '@/app/components/SiteNavbar'
 import SiteFooter from '@/app/components/SiteFooter'
+import SiteContactBanner from '@/app/components/SiteContactBanner'
 
 export default function Home() {
   return (
@@ -15,8 +16,9 @@ export default function Home() {
       <HomeAbout />
       <HomeSkills />
       <HomeProjects />
-      <HomeReviews />
       <HomeWorkHistory />
+      <HomeReviews />
+      <SiteContactBanner />
       <SiteFooter />
     </main>
   )
