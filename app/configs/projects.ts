@@ -8,38 +8,6 @@ import dag from '@/app/assets/images/dag.webp'
 export const projects = [
   {
     show: true,
-    active: true,
-    name: 'HN Furniture E-commerce Website',
-    domain: null,
-    url: null,
-    role: 'Front-end Developer',
-    thumbnail: hn.src,
-    thumbnailClass: 'h-[300px] md:h-[250px] lg:h-full',
-    className: 'md:col-span-1 md:row-span-1 lg:col-span-1 lg:row-span-2',
-    about:
-      '<p>HN is a creative and technological platform that provides unique, world-class architectural pieces and products.</p>',
-    responsibility:
-      "<p>Developed the frontend of the HN's E-commerce Website.</p><br><p>My role involved creating an engaging, user-friendly experience that highlights the brand's commitment to artistry, community, and environmental responsibility in the luxury market.</p>",
-    technologies: ['Vue.js', 'Tailwind', 'Django'],
-  },
-  {
-    show: true,
-    active: false,
-    name: 'Google Ads Web Scraper',
-    domain: null,
-    url: null,
-    role: 'Full-Stack Developer',
-    thumbnail: wsag.src,
-    thumbnailClass: 'h-[300px] md:h-[250px] lg:h-[200px]',
-    className: 'md:col-span-1 md:row-span-1 lg:col-span-2 lg:row-span-1',
-    about:
-      'The Niche-Specific Google Ads Scraper is a robust tool designed to automate the extraction of Google Advertisements based on user-defined niche markets. This project was born out of the need for efficient, targeted ad analysis for niche marketing strategies. It offers a streamlined approach to gather ad data, helping marketers and businesses to understand their competition and market trends better.',
-    responsibility:
-      '<p>I developed a scraper to automate the extraction of Google Ads based on user-defined niche markets.</p><p>The scraper was coded with the ReCaptcha-bypass in mind thru the use of proxies to avoid getting blocked by Google.</p>',
-    technologies: ['Python', 'Beautiful Soup', 'Nuxt.js', 'Laravel'],
-  },
-  {
-    show: true,
     active: false,
     name: 'NodeLife.io',
     domain: 'nodelife.io',
@@ -57,7 +25,23 @@ export const projects = [
   {
     show: true,
     active: true,
-    name: 'PZ ERP',
+    name: 'HN Furniture E-commerce Website',
+    domain: null,
+    url: null,
+    role: 'Front-end Developer',
+    thumbnail: hn.src,
+    thumbnailClass: 'h-[300px] md:h-[250px] lg:h-full',
+    className: 'md:col-span-1 md:row-span-1 lg:col-span-1 lg:row-span-2',
+    about:
+      'HN is a creative and technological platform that provides unique, world-class architectural pieces and products.',
+    responsibility:
+      "<p>Developed the frontend of the HN's E-commerce Website.</p><br><p>My role involved creating an engaging, user-friendly experience that highlights the brand's commitment to artistry, community, and environmental responsibility in the luxury market.</p>",
+    technologies: ['Vue.js', 'Tailwind', 'Django'],
+  },
+  {
+    show: true,
+    active: true,
+    name: 'PZ Data Management System',
     domain: null,
     url: null,
     role: 'Front-end Developer',
@@ -82,7 +66,7 @@ export const projects = [
     className: 'md:col-span-1 md:row-span-2 lg:col-span-2 lg:row-span-1',
     about: 'DAG is a private company based in Alkmaar, the Netherlands, founded in 2016. It specializes in corporate finance and asset management services. Their offerings include debt factoring, crowdfunding, purchase financing, consultancy, and financial advice.',
     responsibility:
-      "<p>Developed a comprehensive web application for DAG, a finance and asset management company.</p><p>The app features user-friendly interfaces for services like debt factoring, crowdfunding, and financial consulting.</p>",
+      "<p>Developed a comprehensive web application for DAG, a finance and asset management company.</p><br><p>The app features user-friendly interfaces for services like debt factoring, crowdfunding, and financial consulting.</p>",
     technologies: ['Laravel', 'Vue.js', 'Bootstrap', 'Snappy PDF', 'Google Charts'],
   },
   {
@@ -99,5 +83,21 @@ export const projects = [
     responsibility:
       'Offers a motivational software package for companies who want to promote great values and motivation with their employees.',
     technologies: ['Vue.js', 'Tailwind', 'Laravel'],
+  },
+  {
+    show: true,
+    active: false,
+    name: 'Google Ads Web Scraper',
+    domain: null,
+    url: null,
+    role: 'Full-Stack Developer',
+    thumbnail: wsag.src,
+    thumbnailClass: 'h-[300px] md:h-[250px] lg:h-[200px]',
+    className: 'md:col-span-1 md:row-span-1 lg:col-span-2 lg:row-span-1',
+    about:
+      'The Niche-Specific Google Ads Scraper is a robust tool designed to automate the extraction of Google Advertisements based on user-defined niche markets. This project was born out of the need for efficient, targeted ad analysis for niche marketing strategies. It offers a streamlined approach to gather ad data, helping marketers and businesses to understand their competition and market trends better.',
+    responsibility:
+      '<p>I developed a scraper to automate the extraction of Google Ads based on user-defined niche markets.</p><br><p>The scraper was coded with the ReCaptcha-bypass in mind thru the use of proxies to avoid getting blocked by Google.</p>',
+    technologies: ['Python', 'Beautiful Soup', 'Nuxt.js', 'Laravel'],
   },
 ]
