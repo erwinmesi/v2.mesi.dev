@@ -60,16 +60,12 @@ const HomeAbout = ({ className }: HomeAboutProps) => {
                 <p>
                   Whether {"you're"} looking to build a website from scratch,
                   revamp an existing one, or need expert advice on web
-                  development, {"I'm"}
-                  here to help. {"Let's"} connect and turn your vision into a
-                  digital reality!
+                  development, {"I'm"} here to help. {"Let's"} connect and turn
+                  your vision into a digital reality!
                 </p>
               </div>
               <div className="flex flex-col sm:flex-row gap-3 mt-10">
-                <a
-                  href="https://www.upwork.com/fl/erwinmesi"
-                  target="_blank"
-                >
+                <a href="https://www.upwork.com/fl/erwinmesi" target="_blank">
                   <button className="btn btn-primary">
                     Upwork Profile
                     <ArrowTopRightOnSquareIcon height="20" />
