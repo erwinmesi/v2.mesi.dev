@@ -4,19 +4,19 @@ import { useMemo, useState } from 'react'
 import { StarIcon } from '@heroicons/react/20/solid'
 import { reviews as origReviews } from '@/app/configs/reviews'
 
-const REVIEWS_LIMIT = 6
+const DATA_LIMIT = 6
 
 function HomeReviews() {
-  const [limit, setLimit] = useState(REVIEWS_LIMIT)
+  const [limit, setLimit] = useState(DATA_LIMIT)
 
-  const limited = useMemo(() => limit === REVIEWS_LIMIT, [limit])
+  const limited = useMemo(() => limit === DATA_LIMIT, [limit])
 
   const reviews = useMemo(() => {
     return origReviews.filter((review) => review.published).slice(0, limit)
   }, [limit])
 
-  const toggleReviewsLimit = () => {
-    setLimit(limited ? origReviews.length : REVIEWS_LIMIT)
+  const toggleLimit = () => {
+    setLimit(limited ? origReviews.length : DATA_LIMIT)
   }
 
   return (
@@ -44,7 +44,7 @@ function HomeReviews() {
                 </div>
                 <div>
                   <p className="text-typo-600">
-                    {review.firstname} {review.lastname[0]}.
+                    {review.firstname} {review.lastname}
                   </p>
                   <div className="flex">
                     {Array.from(new Array(5)).map((_, index) => (
@@ -65,7 +65,7 @@ function HomeReviews() {
           ))}
         </div>
         <div className="flex justify-center pt-16">
-          <button className="btn btn-light" onClick={toggleReviewsLimit}>
+          <button className="btn btn-light" onClick={toggleLimit}>
             {limited ? 'Show More' : 'Show Less'}
           </button>
         </div>

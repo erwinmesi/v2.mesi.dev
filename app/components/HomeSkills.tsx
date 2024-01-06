@@ -1,8 +1,25 @@
-import { skillGroup, skills } from '@/app/configs/skills'
+'use client'
+
+import { useMemo, useState } from 'react'
+import { skills as origSkills } from '@/app/configs/skills'
 import cn from 'classnames'
 import bg from '@/app/assets/images/abstract_boxes.webp'
 
+const DATA_LIMIT = 12
+
 function HomeSkills() {
+  const [limit, setLimit] = useState(DATA_LIMIT)
+
+  const limited = useMemo(() => limit === DATA_LIMIT, [limit])
+
+  const skills = useMemo(() => {
+    return origSkills.slice(0, limit)
+  }, [limit])
+
+  const toggleLimit = () => {
+    setLimit(limited ? origSkills.length : DATA_LIMIT)
+  }
+
   return (
     <section
       id="skills"
@@ -51,6 +68,11 @@ function HomeSkills() {
               </div>
             </div>
           ))}
+        </div>
+        <div className="flex justify-center pt-8">
+          <button className="btn btn-light" onClick={toggleLimit}>
+            {limited ? 'Show More' : 'Show Less'}
+          </button>
         </div>
       </div>
     </section>

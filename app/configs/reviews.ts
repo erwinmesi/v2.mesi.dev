@@ -82,12 +82,12 @@ export const reviews = [
   {
     id: 9,
     message:
-      'Erwin is a fantastic resource for your advanced CSS needs. He promptly and efficiently completed my job, and I am ecstatic with the results! I highly recommend his services for anyone who is on the fence about hiring a freelancer to do some web work.',
-    firstname: 'Ryan',
-    lastname: 'Talbert',
-    company: '9to5 Ninja',
+      'Sir Erwin is an excellent and very skilled developer that delivers everything he promises and beyond. Communication is truly outstanding and anyone working with him can rest assured that things will get completed before their deadline. Thank you!',
+    firstname: 'Jackye',
+    lastname: 'Govaerts',
+    company: 'HelpDesk Heroes',
     published: true,
-    title: 'Advanced CSS Expert',
+    title: 'Outstanding Developer with Excellent Communication',
   },
   {
     id: 10,
@@ -102,12 +102,12 @@ export const reviews = [
   {
     id: 11,
     message:
-      'Sir Erwin is an excellent and very skilled developer that delivers everything he promises and beyond. Communication is truly outstanding and anyone working with him can rest assured that things will get completed before their deadline. Thank you!',
-    firstname: 'Jackye',
-    lastname: 'Govaerts',
-    company: 'HelpDesk Heroes',
+      'Simply a great software developer. Unlike many programmers, he is willing and inquisitive to solve the requested task. With all his good intentions, he helped all our small and big problems, no matter what time it was.',
+    firstname: 'Serhan',
+    lastname: 'Kayalar',
+    company: 'Socialays',
     published: true,
-    title: 'Outstanding Developer with Excellent Communication',
+    title: 'Inquisitive and Solution-Oriented Programmer',
   },
   {
     id: 12,
@@ -138,16 +138,6 @@ export const reviews = [
     company: 'Dapta',
     published: true,
     title: 'Professional Vue 3 Developer',
-  },
-  {
-    id: 15,
-    message:
-      'Simply a great software developer. Unlike many programmers, he is willing and inquisitive to solve the requested task. With all his good intentions, he helped all our small and big problems, no matter what time it was.',
-    firstname: 'Serhan',
-    lastname: 'Kayalar',
-    company: 'Socialays',
-    published: true,
-    title: 'Inquisitive and Solution-Oriented Programmer',
   },
   {
     id: 16,
@@ -238,6 +228,16 @@ export const reviews = [
     company: 'Wheel Carnival',
     published: true,
     title: 'Nuxt and Vue Specialist',
+  },
+  {
+    id: 24.5,
+    message:
+      'Erwin is a fantastic resource for your advanced CSS needs. He promptly and efficiently completed my job, and I am ecstatic with the results! I highly recommend his services for anyone who is on the fence about hiring a freelancer to do some web work.',
+    firstname: 'Ryan',
+    lastname: 'Talbert',
+    company: '9to5 Ninja',
+    published: true,
+    title: 'Advanced CSS Expert',
   },
   {
     id: 25,
