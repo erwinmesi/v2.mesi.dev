@@ -38,15 +38,14 @@ export default function HomeHero() {
                   />
                 </picture>
                 <p className="relative z-[1]">
-                  {"I'm"}
-                  <span className="ml-2 bg-white px-1 py-1 text-primary">
+                  <span className="bg-white px-1 py-1 text-primary text-2xl">
                     Erwin Mesias
                   </span>
                 </p>
               </div>
               <h1 className="text-4xl lg:text-5xl font-black inline-flex flex-col sm:flex-row sm:items-center gap-x-3 gap-y-2">
                 Full-Stack{' '}
-                <span className="bg-white text-primary px-2 py-1 -ml-2 sm:ml-0">
+                <span className="bg-white sm:text-primary px-2 py-1 -ml-2 sm:ml-0">
                   Web Developer
                 </span>
               </h1>
