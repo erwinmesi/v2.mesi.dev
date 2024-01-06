@@ -9,7 +9,7 @@ function SiteFooter() {
           <p className="text-sm">Erwin Mesias | mesi.dev</p>
           <div className="flex gap-5 items-center">
             <a href="https://www.upwork.com/fl/erwinmesi" target="_blank" className='relative top-0.5'>
-              <IconUpwork className="h-5" />
+              <IconUpwork className="h-6" />
             </a>
             <a href="https://www.linkedin.com/in/erwinmesi" target="_blank">
               <IconLinkedIn className="h-5" />

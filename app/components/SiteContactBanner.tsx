@@ -34,7 +34,7 @@ function SiteContactBanner() {
                   className="h-8 relative top-0.5"
                   title="Contact me on Upwork"
                 />
-                <span className="font-semibold inline-flex gap-2 items-center">
+                <span className="font-semibold inline-flex gap-2 items-center relative top-[1px]">
                   Upwork
                   <ArrowTopRightOnSquareIcon height="18" />
                 </span>
@@ -45,10 +45,10 @@ function SiteContactBanner() {
                 target="_blank"
               >
                 <IconLinkedIn
-                  className="h-8 relative bottom-0.5"
+                  className="h-7 relative bottom-0.5"
                   title="Connect with me on LinkedIn"
                 />
-                <span className="font-semibold inline-flex gap-2 items-center">
+                <span className="font-semibold inline-flex gap-2 items-center relative top-[1px]">
                   LinkedIn
                   <ArrowTopRightOnSquareIcon height="18" />
                 </span>
