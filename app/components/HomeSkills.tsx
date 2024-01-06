@@ -5,7 +5,7 @@ import { skills as origSkills } from '@/app/configs/skills'
 import cn from 'classnames'
 import bg from '@/app/assets/images/abstract_boxes.webp'
 
-const DATA_LIMIT = 12
+const DATA_LIMIT = 16
 
 function HomeSkills() {
   const [limit, setLimit] = useState(DATA_LIMIT)
@@ -42,9 +42,12 @@ function HomeSkills() {
           ))}
         </div> */}
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-y-6 gap-x-4">
-          {skills.map((skill: any) => (
+          {skills.map((skill: any, index: number) => (
             <div
-              className="h-16 flex gap-x-3 items-center mx-4"
+              className={cn('h-16 flex gap-x-3 items-center mx-4', {
+                'sm:hidden lg:flex xl:hidden':
+                  limited && index == DATA_LIMIT - 1,
+              })}
               key={skill.name}
             >
               <div

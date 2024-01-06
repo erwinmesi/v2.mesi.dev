@@ -55,6 +55,13 @@ export const skills = [
     className: 'border-[#000000]',
   },
   {
+    name: 'Laravel',
+    group: skillGroup.BACKEND,
+    years: 7,
+    logo: imgLaravel.src,
+    className: 'border-[#FF2D20]',
+  },
+  {
     name: 'Vue.js',
     group: skillGroup.FRONTEND,
     years: 7,
@@ -74,13 +81,6 @@ export const skills = [
     years: 5,
     logo: imgTailwind.src,
     className: 'border-[#06B6D4]',
-  },
-  {
-    name: 'Laravel',
-    group: skillGroup.BACKEND,
-    years: 7,
-    logo: imgLaravel.src,
-    className: 'border-[#FF2D20]',
   },
   {
     name: 'Flask',
@@ -125,13 +125,6 @@ export const skills = [
     className: 'border-[#3776AB]',
   },
   {
-    name: 'Node.js',
-    group: skillGroup.BACKEND,
-    years: 5,
-    logo: imgNode.src,
-    className: 'border-[#339933]',
-  },
-  {
     name: 'SASS / SCSS',
     group: skillGroup.STYLING,
     years: 7,
@@ -153,6 +146,20 @@ export const skills = [
     className: 'border-[#3880FF]',
   },
   {
+    name: 'Git / GitFlow',
+    group: skillGroup.VCS,
+    years: 7,
+    logo: imgGit.src,
+    className: 'border-[#F05032]',
+  },
+  {
+    name: 'Node.js',
+    group: skillGroup.BACKEND,
+    years: 5,
+    logo: imgNode.src,
+    className: 'border-[#339933]',
+  },
+  {
     name: 'MySQL',
     group: skillGroup.DB,
     years: 7,
@@ -165,13 +172,6 @@ export const skills = [
     years: 5,
     logo: imgMongoDB.src,
     className: 'border-[#47A248]',
-  },
-  {
-    name: 'Git / GitFlow',
-    group: skillGroup.VCS,
-    years: 7,
-    logo: imgGit.src,
-    className: 'border-[#F05032]',
   },
   {
     name: 'Redux',
