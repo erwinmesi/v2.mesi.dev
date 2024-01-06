@@ -50,7 +50,7 @@ export default function HomeHero() {
                   Web Developer
                 </span>
               </h1>
-              <div className="py-6 space-y-4 text-base md:text-lg font-medium text-typo md:text-gray-50 lg:text-gray-700 lg:w-3/5 xl:w-full lg:pr-14 md:drop-shadow-sm-white">
+              <div className="py-6 space-y-4 text-base md:text-lg font-medium text-typo md:text-gray-50 lg:text-gray-800 lg:w-3/5 xl:w-full lg:pr-14 md:drop-shadow-sm-white">
                 <p>
                   Full-Stack Web and Cross-Platform Mobile Developer with vast
                   experience in coding different Web Frameworks.
