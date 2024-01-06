@@ -8,7 +8,7 @@ import SymbolCircle from './shared/SymbolCircle'
 
 function SiteContactBanner() {
   return (
-    <section className="md:px-16 md:py-16 bg-gray-50">
+    <section id="contact" className="md:px-16 md:py-16 bg-gray-50">
       <div className="py-24 bg-primary md:rounded-2xl relative overflow-hidden">
         <SymbolCircle svgClass="hidden md:block bg-primary-600 w-[100%] -left-[66%] -top-1/2" />
         <SymbolCircle svgClass="bg-primary-300 border-4 border-primary-300 w-[75%] right-[-25%] bottom-0" />
