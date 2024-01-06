@@ -1,9 +1,8 @@
 'use client'
 
-import { reviews as origReviews } from '@/app/configs/reviews'
-import { StarIcon } from '@heroicons/react/20/solid'
-import cn from 'classnames'
 import { useMemo, useState } from 'react'
+import { StarIcon } from '@heroicons/react/20/solid'
+import { reviews as origReviews } from '@/app/configs/reviews'
 
 const REVIEWS_LIMIT = 6
 
@@ -25,22 +24,18 @@ function HomeReviews() {
       id="home-reviews"
       className="bg-gradient-to-b from-gray-100 to-gray-50"
     >
-      <div className="pt-8 pb-16 md:pb-0 px-6 sm:px-8 md:px-10 lg:px-12 xl:px-14 2xl:px-16">
+      <div className="site-container pt-8 pb-16 md:pb-0">
         <div className="mb-10 text-center">
           <h2 className="section-header">Client Testimonials</h2>
           <p className="section-sub-header">
             Client insights on our successful collaborations
           </p>
         </div>
-        <div
-          className={cn('grid md:grid-cols-2 xl:grid-cols-3 gap-6', {
-            '2xl:grid-cols-4': limit > 6,
-          })}
-        >
+        <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-6">
           {reviews.map((review, index) => (
             <div
               key={index}
-              className="p-6 shadow rounded text-sm text-typo-500 bg-white"
+              className="p-6 shadow rounded-md lg:rounded-lg text-sm text-typo-500 bg-white"
             >
               <div className="flex items-center gap-x-2 mb-3">
                 <div className="w-10 h-10 grid place-content-center rounded-full bg-primary text-white shrink-0">
@@ -70,10 +65,7 @@ function HomeReviews() {
           ))}
         </div>
         <div className="flex justify-center pt-16">
-          <button
-            className={cn('btn', limited ? 'btn-primary' : 'btn-light')}
-            onClick={toggleReviewsLimit}
-          >
+          <button className="btn btn-light" onClick={toggleReviewsLimit}>
             {limited ? 'Show More' : 'Show Less'}
           </button>
         </div>

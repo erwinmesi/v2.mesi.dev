@@ -9,7 +9,7 @@ type WorkHistoryCardProps = {
 
 function WorkHistoryCard({ job }: WorkHistoryCardProps) {
   return (
-    <div className="border border-gray-100 md:rounded-lg shadow bg-white">
+    <div className="border border-gray-100 rounded-md lg:rounded-lg shadow bg-white">
       <div className="flex flex-col sm:flex-row">
         <div className="relative flex flex-row sm:flex-col justify-end sm:justify-start text-center gap-y-2 py-[18px] sm:pt-12 sm:pb-5 px-5 shrink-0">
           <picture className="absolute left-12 sm:left-1/2 -translate-x-1/2 top-2 sm:-top-3 bg-primary rounded-full grid place-content-center shadow w-10 sm:w-11 h-10 sm:h-11">

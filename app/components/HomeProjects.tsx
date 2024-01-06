@@ -34,7 +34,7 @@ function HomeProjects() {
                   <div
                     key={index}
                     className={cn(
-                      'group shadow md:rounded overflow-hidden',
+                      'group shadow rounded-md lg:rounded-lg overflow-hidden',
                       project.className
                     )}
                   >

@@ -23,11 +23,6 @@ export default function SiteNavbar() {
           <li className="transition-all text-gray-700 hover:text-primary-550 px-4 sm:px-6 py-6 md:py-10 cursor-pointer flex items-center">
             <a href="/#projects">Works</a>
           </li>
-          <li className="transition-all text-gray-700 hover:text-primary-550 px-4 sm:px-6 py-6 md:py-10 cursor-pointer flex items-center">
-            <a href="/erwin_mesias_cv.pdf" target="_blank" download>
-              CV
-            </a>
-          </li>
         </ul>
         <div className="px-4 sm:px-6">
           <a href="/#contact">
