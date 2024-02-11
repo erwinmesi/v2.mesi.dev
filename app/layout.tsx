@@ -1,4 +1,4 @@
-import { GoogleTagManager } from '@next/third-parties/google'
+import Script from 'next/script'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import '@/app/styles/globals.scss'
@@ -27,10 +27,23 @@ export default function RootLayout({
 }: {
   children: React.ReactNode
 }) {
+  const GA_MEASUREMENT_ID = 'G-WLGLL6PQB3'
+
   return (
     <html lang="en">
+      <head>
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`window.dataLayer = window.dataLayer || [];
+            function gtag(){window.dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${GA_MEASUREMENT_ID}');`}
+        </Script>
+      </head>
       <body className={inter.className}>
-        <GoogleTagManager gtmId="G-WLGLL6PQB3" />
         {children}
       </body>
     </html>
