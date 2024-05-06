@@ -50,6 +50,9 @@ function WorkHistoryCard({ job }: WorkHistoryCardProps) {
             ) : (
               <p className="font-semibold text-typo-600">{job.company_name}</p>
             )}
+            <p className="text-xs text-typo-500 mt-0.5">
+              {job.company_location}
+            </p>
           </div>
           <div
             className="space-y-2 text-sm"

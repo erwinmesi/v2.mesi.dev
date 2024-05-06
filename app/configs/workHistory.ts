@@ -5,6 +5,7 @@ import imgUpwork from '@/app/assets/images/upwork.webp'
 
 export type Job = {
   company_name: string
+  company_location: string
   company_url?: string
   logo_url: string
   position: string
@@ -23,6 +24,7 @@ export type Job = {
 export const workHistory: Job[] = [
   {
     company_name: 'AdTech SEZC',
+    company_location: 'Cayman Islands',
     company_url: undefined,
     logo_url: imgCodevol.src,
     position: 'Full-Stack Web Developer',
@@ -42,12 +44,13 @@ export const workHistory: Job[] = [
       year: '2022',
     },
     to: {
-      month: null,
-      year: 'Present',
+      month: 'Mar',
+      year: '2024',
     },
   },
   {
     company_name: 'i-Cube Digital Solutions, Inc.',
+    company_location: 'Makati, Philippines',
     company_url: 'https://i-cube-digitalsolutions.com/',
     logo_url: imgIcube.src,
     position: 'Senior Web Developer',
@@ -73,6 +76,7 @@ export const workHistory: Job[] = [
   },
   {
     company_name: 'Upwork',
+    company_location: 'Online Workplace',
     company_url: 'https://www.upwork.com/fl/erwinmesi',
     logo_url: imgUpwork.src,
     position: 'Full-Stack Web and Cross-Platform Mobile Developer',
@@ -100,6 +104,7 @@ export const workHistory: Job[] = [
   },
   {
     company_name: 'Solution Resource Inc.',
+    company_location: 'Quezon City, Philippines',
     company_url: 'https://solutionsresource.com/',
     logo_url: imgSri.src,
     position: 'Software Development Engineer',
