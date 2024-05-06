@@ -42,19 +42,23 @@ const HomeAbout = ({ className }: HomeAboutProps) => {
                 <h2 className="section-header !text-primary">About Me</h2>
               </div>
               <div className="space-y-2 mb-6">
-                <h3 className="font-semibold">
-                  Full-Stack Web Developer with 7 years of experience
+                <h3 className="font-bold text-lg">
+                  Full-Stack Web Developer with 7 years+ of experience
                 </h3>
                 <p>
-                  {"I'm"} a seasoned Full-Stack Web Developer with 7 years of
-                  rich experience in crafting dynamic and user-centric web
-                  solutions. My journey in web development has led me to
-                  specialize in an array of modern technologies and frameworks
-                  that enable me to bring innovative ideas to life.
+                  7 years+ of Full-Stack Web Development experience in coding{' '}
+                  <span className="font-semibold text-primary-500">
+                    JavaScript, PHP and Python
+                  </span>{' '}
+                  and web frameworks such as{' '}
+                  <span className="font-semibold text-primary-500">
+                    React.js, Next.js, Vue.js, Nuxt.js, Laravel, Django, Flask,
+                    Strapi CMS.
+                  </span>
                 </p>
               </div>
               <div className="space-y-2">
-                <h3 className="font-semibold">
+                <h3 className="font-bold">
                   {"Let's"} Build Something Great Together!
                 </h3>
                 <p>
