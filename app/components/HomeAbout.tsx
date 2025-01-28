@@ -29,7 +29,8 @@ const HomeAbout = ({ className }: HomeAboutProps) => {
                 className="w-20 h-20 absolute top-12"
               />
               <FloatingStats
-                data="7yrs+"
+                data="8 years"
+                dataClass="!text-base"
                 caption="Experience"
                 className="w-24 h-24 absolute bottom-0 right-3/4 translate-x-1/2"
               />
@@ -43,10 +44,10 @@ const HomeAbout = ({ className }: HomeAboutProps) => {
               </div>
               <div className="space-y-2 mb-6">
                 <h3 className="font-bold text-lg">
-                  Full-Stack Web Developer with 7 years+ of experience
+                  Full-Stack Web Developer with 8 years of experience
                 </h3>
                 <p>
-                  7 years+ of Full-Stack Web Development experience in coding{' '}
+                  8 years of Full-Stack Web Development experience in coding{' '}
                   <span className="font-semibold text-primary-500">
                     JavaScript, PHP and Python
                   </span>{' '}

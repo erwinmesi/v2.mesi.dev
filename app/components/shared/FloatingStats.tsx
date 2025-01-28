@@ -5,9 +5,10 @@ type FloatingStatsProps = {
   data: string
   caption: string,
   className: string,
+  dataClass?: string,
 }
 
-function FloatingStats({ className, data, caption }: FloatingStatsProps) {
+function FloatingStats({ className, data, caption, dataClass }: FloatingStatsProps) {
   return (
     <div
       className={cn(
@@ -15,7 +16,7 @@ function FloatingStats({ className, data, caption }: FloatingStatsProps) {
         'bg-white grid place-content-center rounded-full border-2 border-primary-300 text-center'
       )}
     >
-      <div className="text-lg font-bold text-primary">{data}</div>
+      <div className={cn("text-lg font-bold text-primary", dataClass)}>{data}</div>
       <small className="text-xs text-typo">{caption}</small>
     </div>
   )
